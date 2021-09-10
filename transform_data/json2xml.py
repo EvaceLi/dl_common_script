@@ -7,7 +7,7 @@ from xml.dom.minidom import Document
 
 labelpath = 'save.txt'
 savepath = 'save_xml/'
-basePath = '/media/cidi-gpu/data1/xiewei/traffic_cones_tfrecord/selected/select2/'
+basePath = 'select2/'
 filefinames = open(labelpath,'r').readlines()
 filefinames = [file.replace('\n','') for file in filefinames]
 

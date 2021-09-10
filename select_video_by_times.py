@@ -59,7 +59,7 @@ def filter(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--video_dir', default='/home/cidi-gpu/disk/data1/datasets/rotate_pedestrian/bus/41306_cs', type=str, help='video dir')
+    parser.add_argument('--video_dir', default='/41306_cs', type=str, help='video dir')
     parser.add_argument('--day_num', default=130, type=int, help='day num')
     parser.add_argument('--night_num', default=0, type=int, help='day num')
     parser.add_argument('--day_time', default='0600-1900', type=str, help='day_time')

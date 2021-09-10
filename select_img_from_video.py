@@ -2,10 +2,9 @@
 import os
 import cv2
 
-# video_base_path = "/home/cidi-gpu/disk/data1/datasets/701/record/full/backdoor"
-video_path = "/home/cidi-gpu/disk/data1/datasets/headCount/mcamera_6/bus_data/315/41110/record/full/315_41110_0617_0619_video.txt"
-difficult_path = '/home/cidi-gpu/disk/data1/liyi/diffcult_sample_data/315_41110_0620/315_41110_0620_diffcult.txt'
-save_img_path = "/home/cidi-gpu/disk/data1/liyi/diffcult_sample_data/315_41110_0620/315_41110_0620_seletct_img"
+video_path = "/315_41110_0617_0619_video.txt"
+difficult_path = '315_41110_0620_diffcult.txt'
+save_img_path = "//315_41110_0620_seletct_img"
 bus_name = "41110"
 os.makedirs(save_img_path, exist_ok=True)
 difficult_list = open(difficult_path, 'r').readlines()

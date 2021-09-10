@@ -16,7 +16,7 @@ imshape = []
 max_object_num = 140
 
 data_path ='train/'
-savepath = 'media/cidi-gpu/data1/xiewei/traffic_cones_tfrecord/vechile_trafficCones/tfrecord/with_small_vehicle/6mm_train_traffic_cones_xuguang.tfrecord'
+savepath = '6mm_train_traffic_cones_xuguang.tfrecord'
 train_dict_path ='train/train.txt'
 
 # def imshow_bbox(bbox,img,label):

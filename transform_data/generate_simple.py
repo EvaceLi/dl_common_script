@@ -1,14 +1,12 @@
 #将车道线标注数据转换为Tusimple数据集格式
-import sys
-sys.path.remove("/opt/ros/kinetic/lib/python2.7/dist-packages")
 import os
 import shutil
 import json
 import cv2
 import numpy as np
-org_path = "/home/cidi/deeplearn_data/LaneDetection/rail/wugang_maxlane6/6mm/json_0906"
-save_img_path = "/home/cidi/deeplearn_data/LaneDetection/rail/wugang_maxlane6/6mm/images_0906"
-save_json_path = "/home/cidi/deeplearn_data/LaneDetection/rail/wugang_maxlane6/6mm/train_0906.json"
+org_path = "/6mm/json_0906"
+save_img_path = "/6mm/images_0906"
+save_json_path = "/6mm/train_0906.json"
 space = 5
 val = True
 color = [(0,0,255),(0,0,180),(0,0,60),(0,255,0),(0,180,0),(0,60,0),(255,0,0),(180,0,0)]

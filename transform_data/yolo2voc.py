@@ -3,8 +3,8 @@ import os
 import shutil
 import cv2
 
-yolo_txt_path = '/home/cidi-gpu/disk/data/headData/960_yolo/val.txt'
-VOC_base_path = '/home/cidi-gpu/disk/data1/datasets/headCount/HeadData/VOC/VOC2012_head'
+yolo_txt_path = "960_yolo/val.txt'
+VOC_base_path = '/VOC/VOC2012_head'
 img_save_path = VOC_base_path+'/JPEGImages'
 xml_save_path = VOC_base_path+'/Annotations'
 txt_save_path = VOC_base_path+'/labels'

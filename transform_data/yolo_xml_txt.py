@@ -9,7 +9,7 @@ import cv2
 sets = [('vehicle')]
 classes = ["vehicle"]
 
-path = '/media/cidi-gpu/data1/xiewei/traffic_cones_tfrecord/vechile_trafficCones/JPEGImages_Annotations/xuguang/without_small_vehicle/val/'
+path = '/val/'
 
 
 def convert(size, box):
