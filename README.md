@@ -12,7 +12,7 @@ modify_xml.py：修改xml文件
 produce_data.py：生成yml数据，将模型的输入与输出写入yml，用于进行部署的时候验证TensorRT结果是否对。
 read_video.py：从视频取图像
 select_difficult_sample.py：#找难样本。比如用一个小网络yolov3裁剪网络生成的结果（txt），大网络yolov4生成的结果作为ＧＴ，
-# 找出那些YOlov4检测出来了，yolov3出错的图片，称之为难样本，用于训练提高效果；
+找出那些YOlov4检测出来了，yolov3出错的图片，称之为难样本，用于训练提高效果；
 select_img_from_video.py：从视频中获取图像。进行了一些筛选。
 transform_data/yolo2voc.py:将yolo（txt）规定的数据格式转换为ＶＯＣ数据格式
 transform_data/xml2json.py:ｘｍｌ转ｊson文件
